@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import {RoomContext} from "../context"
+import Loading from "./Loading"
 
 export default class FuturedRooms extends Component {
   static contextType = RoomContext
@@ -9,7 +10,7 @@ export default class FuturedRooms extends Component {
     return (
       <div>
         hello from futured rooms 
-        {/* <RoomContext/> */}
+        <Loading/>
       </div>
     )
   }
