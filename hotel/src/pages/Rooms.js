@@ -11,6 +11,7 @@ export default function Rooms() {
         <Banner title="Our Rooms">
           <Link to="/" className="btn-primary">
             Return Home
+            
           </Link>
         </Banner>
       </Hero>
